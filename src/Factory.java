@@ -1,12 +1,7 @@
 
-public class Factory {
-	public static final int DOG = 0;
-	public static final int CAT = 1;
-	public static final int RABBIT = 2;
-	public static final int PELICAN = 3;
-	
-	public Animal getAnimal(int id) {
-		switch(id) {
+public class Factory {	
+	public Animal getAnimal(AnimalName name) {
+		switch(name) {
 		case DOG:
 			return new Dog();
 		case CAT: 
