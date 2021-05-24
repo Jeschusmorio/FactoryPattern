@@ -1,4 +1,10 @@
+public class Cat extends Animal {
+	public Cat() {
+		super("Cat", 4, 30, false, false);
+	}
+}
 
+/*
 public class Cat implements Animal {
 	public String getName() {
 		return "Cat";
@@ -16,3 +22,4 @@ public class Cat implements Animal {
 		return false;
 	}
 }
+*/
